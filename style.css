@@ -14,13 +14,13 @@ body, ul, li, p{
 /* Define as caracteristicas do TAG ancor */
 a{
     text-decoration: none;  /* tira o sublinhado do link */
-    color: white;         /* Cor do texto */
+    color: rgb(255, 255, 255);         /* Cor do texto */
 }
 
 /* Define as Caracteristicas do header */
 .header{
     /* Cor de fundo */
-    background-color: black;
+    background-color: rgb(255, 174, 0);
     /* display flexivel */
     display: flex;
     /* Organizando a linha */
@@ -30,4 +30,20 @@ a{
     /* centralizado */
     align-items: center;
     /* "margen interna" */
-    
+    padding: 20px;
+}
+.menu{
+    display: flex;
+}
+
+/* distância entre as as palavras do link */
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+
+}
